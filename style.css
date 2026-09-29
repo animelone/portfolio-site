@@ -14,3 +14,22 @@ header{
     border: 1px solid #ccc;
     padding: 1 rem 0;
 }
+
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 1.5 rem;
+}
+
+.main{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+}
